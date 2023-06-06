@@ -5,12 +5,19 @@
 ## 🚀 Começando
 
 Para rodar o código basta instalar as bibliotecas necessárias:
+
 pip install pygame
+
 pip install numpy
+
 pip install tensorflow
+
 Após fazer a instalação pelo cmd ou pelo terminal da IDE adicionar os packages das mesmas bibliotecas dentro da IDE, como utilizei PyCharm irei deixar o tutorial de como fazer isso no mesmo:
+
 CTRL + ALT + S OU FILE -> SETTINGS
-Após abrir a janela de configuraçoes ir em: Project: NomeDoProjeto -> Python interpreter -> Clicar no ícone do + e procurar os packages, serão os mesmo das bibliotecas instaladas: pygame, numpy e tensorflow.
+
+Após abrir a janela de configuraçoes ir em: Project: 
+NomeDoProjeto -> Python interpreter -> Clicar no ícone do + e procurar os packages, serão os mesmo das bibliotecas instaladas: pygame, numpy e tensorflow.
 
 
 
