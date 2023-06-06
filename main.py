@@ -180,11 +180,11 @@ while running:
 
     state = np.array([ball.rect.centerx, ball.rect.centery, ball.velocity[0], ball.velocity[1], paddle1.rect.centery, paddle2.rect.centery])
     if ball.rect.centery < paddle1.rect.centery:
-        paddle1.velocity = -5  # Mover para cima
+        paddle1.velocity = -5 
     elif ball.rect.centery > paddle1.rect.centery:
-        paddle1.velocity = 5  # Mover para baixo
+        paddle1.velocity = 5  
     else:
-        paddle1.velocity = 0  # Não fazer nada
+        paddle1.velocity = 0  
 
     paddle1.update()
 
@@ -285,8 +285,8 @@ for episode in range(episode_count):
             paddle1.velocity = -5
         elif action_dqn == 2:
             paddle1.velocity = 5
-            # Solução: Ajustar a velocidade do Paddle1
-            # Aqui você pode adicionar código para ajustar a velocidade do Paddle1 com base em algumas heurísticas ou estratégias específicas.
+            # Ajustando a velocidade do Paddle1
+         
 
             paddle1.update()
 
