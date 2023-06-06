@@ -1,4 +1,4 @@
-# Título do projeto
+# Reinforcement Learning para jogar Pong: Treinando um agente inteligente usando DQN e heurísticas
 
 Um parágrafo da descrição do projeto vai aqui
 
